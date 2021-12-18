@@ -1,9 +1,9 @@
 //ES7 Features
-//1.Array.prototype.includes()
+//1.Array.prototype.includes() //special check for nan values
 //2.Exponentiation Operator
 
 
-//-------------------------------------------Array.prototype.includes()
+//-------------------------------Array.prototype.includes()
 
 //returns true if array contains the value, otherwise it returns false.
 //handles NaN better than Array.prototype.indexOf(). 
@@ -39,3 +39,4 @@ let marks = [50,60,70,80]
 
 //----------------------------------Exponentiation Operator
 console.log(2**3)
+Math.pow(2,3)
